@@ -14,6 +14,7 @@ public class CordinateLabeler : MonoBehaviour
     Vector2Int coordinates = new Vector2Int();
     Waypoint waypoint;
 
+
     void Awake()
     {
         label = GetComponent<TextMeshPro>();
@@ -28,7 +29,6 @@ public class CordinateLabeler : MonoBehaviour
         {
             DisplayCoordinates();
             UpdateObjectNames();
-
         }
         SetLabelColor();
         Togglabels();
